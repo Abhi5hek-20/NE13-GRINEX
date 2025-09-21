@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.manifest
+*.spec
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*~
+.project
+.pydevproject
+
+# Logs
+*.log
+logs/
+*.pot
+*.mo
+
+# Django / Flask / FastAPI
+*.db
+*.sqlite3
+instance/
+db.sqlite3
+migrations/
+
+# Frontend (React/Vue/Angular inside Python project)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+dist/
+build/
+
+# Cache
+.cache/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Static / Media
+staticfiles/
+media/
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
